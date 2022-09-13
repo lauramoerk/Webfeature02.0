@@ -2,6 +2,8 @@
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
+
+
     colors:{
       primary: '#161A1D',
       accent:'#990B0D',
@@ -10,7 +12,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'strippy':['strippyregular','sans-serif'],
-        }
+        },
+        spacing:{
+  tenpercent: '10%',
+},
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
