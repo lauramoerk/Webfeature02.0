@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Vite App</title>
   </head>
   <body class="bg-primary">
     <main>
-      <div id="hero" class="overflow-x-hidden">
+      <div id="hero" class="h-[100vh] overflow-x-hidden">
         <h1
           id="heroh1"
           class="md:inview inviewmobil mt-36 border-t-4 border-b-4 border-accent text-7xl text-accent md:text-9xl"
@@ -23,31 +30,51 @@
         </h1>
       </div>
 
-      <div class="m-20 text-2xl text-secondary lg:m-96">
-        <h3 class="pb-10 text-center font-bold text-accent">PIERRE FALCKE</h3>
-        <p class="">
-          Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
-          kort tid siden, så du hans værker et par gange om dagen, hver dag,
-          året rundt. Pierre Falcke var en af verdens bedst sælgende
-          stock-fotografer, og han solgte over 2 millioner fotos om året. Men
-          Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan han
-          ikke fordrage sit eget arbejde.
-        </p>
-      </div>
-
-      <div class="m-20 mt-72 text-center text-4xl lg:m-96">
-        <div class="typewriter">
-          <p class="text-secondary">Pierre sælger 2 millioner fotos om året</p>
-        </div>
-        <div class="typewriter2">
-          <p class="text-secondary">
-            Det svarer til én fotolicens hvert 16. sekund
+      <div class="m-20 flex justify-center text-2xl text-secondary lg:m-96">
+        <div>
+          <h3
+            class="pb-10 text-center font-strippy text-5xl font-bold text-accent"
+          >
+            PIERRE FALCKE
+          </h3>
+          <p class="w-96 font-quattro text-base">
+            Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
+            kort tid siden, så du hans værker et par gange om dagen, hver dag,
+            året rundt. Pierre Falcke var en af verdens bedst sælgende
+            stock-fotografer, og han solgte over 2 millioner fotos om året. Men
+            Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan
+            han ikke fordrage sit eget arbejde.
           </p>
         </div>
-        <div class="typewriter3">
-          <p class="text-secondary">Du ser hans fotos ca. 2 gange om dagen</p>
+      </div>
+
+      <div
+        class="flex h-[100vh] flex-col items-center justify-center text-center text-4xl lg:m-96"
+      >
+        <div>
+          <div class="typewriter">
+            <p class="font-quattro text-xl text-secondary">
+              Pierre sælger 2 millioner fotos om året
+            </p>
+          </div>
+          <div class="typewriter2">
+            <p class="font-quattro text-xl text-secondary">
+              Det svarer til én fotolicens hvert 16. sekund
+            </p>
+          </div>
+          <div class="typewriter3">
+            <p class="font-quattro text-xl text-secondary">
+              Du ser hans fotos ca. 2 gange om dagen
+            </p>
+          </div>
         </div>
       </div>
+
+      <h2
+        class="p-10 text-center font-strippy text-5xl font-bold uppercase text-accent"
+      >
+        Pierres Berømmelse
+      </h2>
 
       <section class="section2">
         <img
@@ -60,10 +87,10 @@
           src="../img/stock/sammenhold.webp"
           alt="sammenhold"
         />
-        <p class="section2p w-72 text-secondary">
-          Pierre over til digital fotografering i starten af 2000’erne, da han
-          begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en
-          ny verden sig: Reklamefotografering i studie, lyssætning og
+        <p class="section2p w-72 font-quattro text-secondary">
+          Pierre gik over til digital fotografering i starten af 2000’erne, da
+          han begyndte at studere fotografisk kommunikation på DMJX. Her åbnede
+          en ny verden sig: Reklamefotografering i studie, lyssætning og
           manipulering af billeder i Photoshop blev hans nye stil.
         </p>
       </section>
@@ -74,7 +101,7 @@
           src="../img/stock/godt-arbejde.webp"
           alt="apoteket"
         />
-        <p class="section3 w-72 text-secondary">
+        <p class="section3 w-72 font-quattro text-secondary">
           På det tidspunkt var stock-foto industrien i starten af en revolution:
           De første online stock-foto websites begyndte at komme på markedet,
           men de store, etablerede spillere på markedet holdt lidt igen. Pierre
@@ -89,7 +116,7 @@
           src="../img/stock/arbejde.webp"
           alt="apoteket"
         />
-        <p class="section4 w-72 text-secondary">
+        <p class="section4 w-72 font-quattro text-secondary">
           Så Pierre gav sig selv en udfordring: At blive landets bedst sælgende
           stock-fotograf. Pierre lejede et gammelt, billigt erhvervslokale i
           Ishøj industri, fik fløjet billige skuespillere ind fra Polen og
@@ -98,21 +125,36 @@
       </section>
 
       <section>
-        <p class="section w-72 text-secondary">
+        <img
+        class="sectionimg right-tenpercent top-tenpercent invisible w-72 md:visible"
+        src="../img/stock/1.webp"
+        alt="apoteket"
+      />
+      <img
+      class="sectionimg left-tenpercent w-72"
+      src="../img/stock/2.webp"
+      alt="apoteket"
+    />
+        <p class="section w-72 font-quattro text-secondary">
           Pierres profeti om stock-foto branchen holdt stik. Pierre var allerede
           en af landets bedst sælgende stock-fotografer, før han blev færdig med
           studiet på DMJX.
         </p>
       </section>
 
-      <div id="infobox" class="bg-accent">
-        <main class="overflow-clip p-8">
-          <div id="horisontscrolling" class="relative h-[400vh]">
+      <div
+        id="infobox"
+        class="border-t-2 border-b-2 border-solid border-accent bg-primary"
+      >
+        <div class="overflow-clip p-8">
+          <div id="horisontscrolling" class="relative h-[200vh]">
             <ul id="listscroll" class="sticky top-0 flex list-none">
               <li
-                class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[97vw] md:px-24"
+                class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[50vw] md:px-24"
               >
-                <div class="h-[50px] w-[200px] md:h-[200px] md:w-[200px]">
+                <div
+                  class="flex h-[50px] w-[200px] content-center justify-center md:h-[200px] md:w-[200px]"
+                >
                   <h3 class="stockfotoheader text-secondary">
                     Hvad er stock-fotos?
                   </h3>
@@ -121,8 +163,10 @@
               <li
                 class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[80vw]"
               >
-                <div class="h-[100px] w-[200px] md:h-[300px] md:w-[500px]">
-                  <p class="text-secondary">
+                <div
+                  class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
+                >
+                  <p class="w-72 font-quattro text-secondary">
                     Stock-fotos er billeder, der kan købes fra et foto-website.
                     De bruges af aviser, til markedsføring og som indhold på
                     websites. En licens til at bruge et foto koster typisk
@@ -134,8 +178,10 @@
               <li
                 class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[80vw]"
               >
-                <div class="h-[100px] w-[200px] md:h-[300px] md:w-[500px]">
-                  <p class="text-secondary">
+                <div
+                  class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
+                >
+                  <p class="w-72 font-quattro text-secondary">
                     Stock-fotos bliver ofte kritiseret for at være uden sjæl -
                     det er de der billeder af en læge i hvid kittel med
                     stetoskop om halsen på en meget hvid baggrund eller en meget
@@ -144,10 +190,12 @@
                 </div>
               </li>
               <li
-                class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[80vw]"
+                class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[50vw]"
               >
-                <div class="h-[100px] w-[200px] md:h-[300px] md:w-[500px]">
-                  <p class="text-secondary">
+                <div
+                  class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
+                >
+                  <p class="w-72 font-quattro text-secondary">
                     Stock-fotos har eksisteret i mange år. Før branchen blev
                     digital, tilbød stock-foto virksomhederne billedmapper, der
                     kunne bestilles fra. Men stock-foto branchen var én af de
@@ -157,10 +205,14 @@
               </li>
             </ul>
           </div>
-        </main>
+        </div>
       </div>
 
-
+      <h2
+        class="pt-20 pb-10 text-center font-strippy text-5xl font-bold uppercase text-accent"
+      >
+        Pierres Berømmelse
+      </h2>
       <div id="section2">
         <section>
           <img
@@ -173,7 +225,7 @@
             src="../public/img/fotox/2.webp"
             alt="ga"
           />
-          <p class="section w-72 text-secondary">
+          <p class="section w-72 font-quattro text-secondary">
             Pierre tjente godt det følgende årti. Men stille og roligt begyndte
             billederne også at give ham kvalme. Han kunne ikke holde sit eget
             arbejde ud, og måtte finde et modsvar til alle de blankpolerede
@@ -193,7 +245,7 @@
             src="../img/fotox/4.webp"
             alt="ga"
           />
-          <p class="section w-72 text-secondary">
+          <p class="section w-72 font-quattro text-secondary">
             Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
             Glitch art og polaroid fotografering, og begyndte stille og roligt
             at skabe sig en ny stil - en stil med fokus på det uperfekte, og
@@ -207,7 +259,7 @@
             src="../img/fotox/5.webp"
             alt="ga"
           />
-          <p class="section w-72 text-secondary">
+          <p class="section w-72 font-quattro text-secondary">
             Pierre tog det endda så vidt at han ikke kun droppede at tage
             stock-fotos. Han fjernede også alle stock-fotos fra de tjenester,
             han solgte sine fotos hos. Han gik fra at være en god
@@ -227,7 +279,7 @@
             src="../img/fotox/7.webp"
             alt="ga"
           />
-          <p class="section w-72 text-secondary">
+          <p class="section w-72 font-quattro text-secondary">
             Men Pierre er glad for sin beslutning. Indkomsten er lavere nu, men
             han har stadig lidt penge på kontoen, og studerer nu
             kunstfotografering på fotoskolen Fatamorgana. Han glæder sig over
@@ -250,7 +302,7 @@
             src="../img/fotox/8.webp"
             alt="ga"
           />
-          <p class="section w-72 text-secondary">
+          <p class="section w-72 font-quattro text-secondary">
             Karrieren begynder også så småt også at gå den rette vej: Pierre er
             begyndt at sælge fotokunst på nettet, og har udgivet sin første
             foto-bog med titlen “Lidt i fem,” som er en fotografisk odyssé om at
@@ -262,7 +314,7 @@
 
         <section>
           <p
-            class="section quote w-72 text-center italic text-secondary md:w-1/2 md:text-5xl"
+            class="section quote w-72 text-center font-quattro italic text-secondary md:w-1/2 md:text-5xl"
           >
             “Nu kan jeg leve livet igen. Jeg føler mig frisk. Jeg føler mig fri.
             Jeg føler mig genfødt.”
@@ -270,15 +322,41 @@
         </section>
       </div>
 
-      <div class="footer flex flex-col justify-center">
+      <div class="referenceknapper pb-20">
+        <h3
+          class="pt-20 pb-10 text-center font-quattro text-2xl font-bold uppercase text-accent"
+        >
+          Er du blevet inspireret? Så kan du tjekke nedenstående links for inspiration til, hvordan du selv kommer i gang med at fotografere:
+        </h3>
+        <div class="flex justify-around">
+					<a href="https://microsites.lomography.com/analogue-photography-101/" class="font-quattro font-bold  link link--leda" data-text="LOMOGRAFI">
+						<span>LOMOGRAFI</span>
+					</a>
+
+          <a href="https://shotkit.com/glitch-art-photography/" class="link link--helike font-bold uppercase text-secondary font-quattro"><span>Glitch</span></a>
+          
+          <a href="https://contrastly.com/polaroid-photography-guide/" class="link link--mneme uppercase font-quattro font-bold">Polaroid</a>
+
+        </div>
+      </div>
+
+      <div class="footer flex flex-col justify-center gap-2.5">
         <h2
-          class="flex justify-center border-b-2 border-solid border-secondary text-2xl text-secondary"
+          class="flex justify-center border-b-2 border-solid border-secondary font-quattro text-2xl text-secondary"
         >
           Credits
         </h2>
-        <p class="text-center text-secondary">
-          Tekst, Grafik & Kode: Robin, Anders & Laura
-        </p>
+        <div class="flex flex-col justify-center gap-8">
+          <p class="text-center font-quattro text-secondary">Tekst:</p>
+          <p class="text-center font-quattro text-secondary">
+            Grafik & Kode: <br />
+            Robin Lau, Anders Viuff, Laura Mørk
+          </p>
+          <p class="text-center font-quattro text-secondary">
+            Fotos: <br />
+            Stefan Grage Shutterstock
+          </p>
+        </div>
       </div>
 
       <div

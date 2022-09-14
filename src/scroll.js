@@ -19,5 +19,5 @@ scroll( animate(".progress-bar", { scaleX: [0, 1] }));
 inView(".quote", () =>{
 animate(".quote", 
   { opacity: [ 0.4, 1], scale: [0.95, 1] }, 
-  { delay: 1, duration: 4})}
+  { delay: 0, duration: 4})}
 );

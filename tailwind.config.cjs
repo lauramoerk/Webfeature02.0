@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'strippy':['strippyregular','sans-serif'],
-        },
+        
+        'quattro':['Quattrocento Sans', 'sans-serif;'],},
         spacing:{
   tenpercent: '10%',
 },
