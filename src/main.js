@@ -14,7 +14,7 @@ inView(".inview2", () => {
 });
 
 inView(".inviewmobil2", () => {
-  animate(".inviewmobil2", { x: [+5000, 250] }, { duration: 1 });
+  animate(".inviewmobil2", { x: [+5000, 100] }, { duration: 1 });
 });
 
 inView(".staggerinview", ({ target }) => {
@@ -24,4 +24,3 @@ inView(".staggerinview", ({ target }) => {
     { duration: 1, delay: stagger(1, { start: 0.25 }) }
   );
 });
-
