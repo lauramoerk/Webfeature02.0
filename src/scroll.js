@@ -12,6 +12,8 @@ document.querySelectorAll("section").forEach((section) => {
 
 
 
+
+
 scroll( animate(".progress-bar", { scaleX: [0, 1] }));
   
   

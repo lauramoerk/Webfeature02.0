@@ -24,3 +24,4 @@ inView(".staggerinview", ({ target }) => {
     { duration: 1, delay: stagger(1, { start: 0.25 }) }
   );
 });
+

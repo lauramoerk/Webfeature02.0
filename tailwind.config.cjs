@@ -16,6 +16,8 @@ module.exports = {
         'quattro':['Quattrocento Sans', 'sans-serif;'],},
         spacing:{
   tenpercent: '10%',
+  800: '60vh',
+  900: '80vh',
 },
     },
   },

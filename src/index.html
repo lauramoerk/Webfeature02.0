@@ -30,40 +30,41 @@
         </h1>
       </div>
 
-      <div class="m-20 flex justify-center text-2xl text-secondary lg:m-96">
-        <div>
-          <h3
-            class="pb-10 text-center font-strippy text-5xl font-bold text-accent"
-          >
-            PIERRE FALCKE
-          </h3>
-          <p class="w-96 font-quattro text-base">
-            Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
-            kort tid siden, så du hans værker et par gange om dagen, hver dag,
-            året rundt. Pierre Falcke var en af verdens bedst sælgende
-            stock-fotografer, og han solgte over 2 millioner fotos om året. Men
-            Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan
-            han ikke fordrage sit eget arbejde.
-          </p>
+      <div>
+        <div class="m-20 flex justify-center text-2xl text-secondary lg:m-96">
+          <div>
+            <h3
+              class="pb-10 text-center font-strippy text-5xl font-bold text-accent"
+            >
+              PIERRE FALCKE
+            </h3>
+            <p class="w-72 font-quattro text-xs md:w-96 md:text-base">
+              Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
+              kort tid siden, så du hans værker et par gange om dagen, hver dag,
+              året rundt. Pierre Falcke var en af verdens bedst sælgende
+              stock-fotografer, og han solgte over 2 millioner fotos om året.
+              Men Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk
+              kan han ikke fordrage sit eget arbejde.
+            </p>
+          </div>
         </div>
       </div>
-
       <div
-        class="flex h-[100vh] flex-col items-center justify-center text-center text-4xl lg:m-96"
+        class="flex h-800 flex-col items-center justify-center text-4xl lg:m-96"
       >
         <div>
-          <div class="typewriter">
-            <p class="font-quattro text-xl text-secondary">
+          <div class="typewrapper" >
+            <p  class="font-quattro text-xl type1 text-secondary">
               Pierre sælger 2 millioner fotos om året
             </p>
           </div>
-          <div class="typewriter2">
-            <p class="font-quattro text-xl text-secondary">
+          <div class="typewrapper2">
+            <p class="font-quattro type2 text-xl text-secondary">
               Det svarer til én fotolicens hvert 16. sekund
             </p>
           </div>
-          <div class="typewriter3">
-            <p class="font-quattro text-xl text-secondary">
+          <div class="typewrapper3">
+            <p class="font-quattro type3 text-xl text-secondary">
               Du ser hans fotos ca. 2 gange om dagen
             </p>
           </div>
@@ -71,7 +72,7 @@
       </div>
 
       <h2
-        class="p-10 text-center font-strippy text-5xl font-bold uppercase text-accent"
+        class="p-10 text-center font-strippy text-2xl font-bold uppercase text-accent md:text-5xl"
       >
         Pierres Berømmelse
       </h2>
@@ -126,15 +127,15 @@
 
       <section>
         <img
-        class="sectionimg right-tenpercent top-tenpercent invisible w-72 md:visible"
-        src="../img/stock/1.webp"
-        alt="apoteket"
-      />
-      <img
-      class="sectionimg left-tenpercent w-72"
-      src="../img/stock/2.webp"
-      alt="apoteket"
-    />
+          class="sectionimg invisible right-tenpercent top-tenpercent w-72 md:visible"
+          src="../img/stock/1.webp"
+          alt="apoteket"
+        />
+        <img
+          class="sectionimg left-tenpercent w-72"
+          src="../img/stock/2.webp"
+          alt="apoteket"
+        />
         <p class="section w-72 font-quattro text-secondary">
           Pierres profeti om stock-foto branchen holdt stik. Pierre var allerede
           en af landets bedst sælgende stock-fotografer, før han blev færdig med
@@ -144,10 +145,10 @@
 
       <div
         id="infobox"
-        class="border-t-2 border-b-2 border-solid border-accent bg-primary"
+        class="border-t-2 border-b-2 border-solid border-accent bg-primary h-[350vh]"
       >
         <div class="overflow-clip p-8">
-          <div id="horisontscrolling" class="relative h-[200vh]">
+          <div id="horisontscrolling" class="relative h-[400vh]">
             <ul id="listscroll" class="sticky top-0 flex list-none">
               <li
                 class="flex h-[100vh] w-[100vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden md:w-[50vw] md:px-24"
@@ -155,7 +156,9 @@
                 <div
                   class="flex h-[50px] w-[200px] content-center justify-center md:h-[200px] md:w-[200px]"
                 >
-                  <h3 class="stockfotoheader text-secondary">
+                  <h3
+                    class="stockfotoheader font-strippy text-5xl font-bold text-accent"
+                  >
                     Hvad er stock-fotos?
                   </h3>
                 </div>
@@ -166,7 +169,7 @@
                 <div
                   class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
                 >
-                  <p class="w-72 font-quattro text-secondary">
+                  <p class="w-72 p-6 border-2 border-solid border-secondary md:w-96 text-xl font-quattro text-secondary">
                     Stock-fotos er billeder, der kan købes fra et foto-website.
                     De bruges af aviser, til markedsføring og som indhold på
                     websites. En licens til at bruge et foto koster typisk
@@ -181,7 +184,7 @@
                 <div
                   class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
                 >
-                  <p class="w-72 font-quattro text-secondary">
+                  <p class="w-72 p-6 border-2 border-solid border-secondary md:w-96 text-xl font-quattro text-secondary">
                     Stock-fotos bliver ofte kritiseret for at være uden sjæl -
                     det er de der billeder af en læge i hvid kittel med
                     stetoskop om halsen på en meget hvid baggrund eller en meget
@@ -195,7 +198,7 @@
                 <div
                   class="flex h-[100px] w-[200px] content-center justify-center md:h-[300px] md:w-[500px]"
                 >
-                  <p class="w-72 font-quattro text-secondary">
+                  <p class=" w-72 p-6 border-2 border-solid border-secondary md:w-96 text-xl font-quattro text-secondary">
                     Stock-fotos har eksisteret i mange år. Før branchen blev
                     digital, tilbød stock-foto virksomhederne billedmapper, der
                     kunne bestilles fra. Men stock-foto branchen var én af de
@@ -209,7 +212,7 @@
       </div>
 
       <h2
-        class="pt-20 pb-10 text-center font-strippy text-5xl font-bold uppercase text-accent"
+        class="stroke pt-28 text-center font-strippy text-2xl font-bold uppercase text-primary md:text-5xl"
       >
         Pierres Berømmelse
       </h2>
@@ -222,7 +225,7 @@
           />
           <img
             class="sectionimg invisible right-tenpercent w-60 md:visible md:w-72"
-            src="../public/img/fotox/2.webp"
+            src="../img/fotox/2.webp"
             alt="ga"
           />
           <p class="section w-72 font-quattro text-secondary">
@@ -322,31 +325,44 @@
         </section>
       </div>
 
-      <div class="referenceknapper pb-20">
+      <div class="referenceknapper flex h-900 flex-col justify-center pb-20">
         <h3
-          class="pt-20 pb-10 text-center font-quattro text-2xl font-bold uppercase text-accent"
+          class="pb-10 pl-10 pr-10 text-center font-quattro text-2xl font-bold uppercase text-secondary"
         >
-          Er du blevet inspireret? Så kan du tjekke nedenstående links for inspiration til, hvordan du selv kommer i gang med at fotografere:
+          Er du blevet inspireret? <br> Så kan du tjekke nedenstående links for
+          inspiration til, hvordan du selv kommer i gang med at fotografere:
         </h3>
-        <div class="flex justify-around">
-					<a href="https://microsites.lomography.com/analogue-photography-101/" class="font-quattro font-bold  link link--leda" data-text="LOMOGRAFI">
-						<span>LOMOGRAFI</span>
-					</a>
+        <div class="flex flex-row items-center justify-around">
+          <a
+            href="https://microsites.lomography.com/analogue-photography-101/"
+            class="link link--leda font-quattro font-bold"
+            data-text="LOMOGRAFI"
+          >
+            <span>LOMOGRAFI</span>
+          </a>
 
-          <a href="https://shotkit.com/glitch-art-photography/" class="link link--helike font-bold uppercase text-secondary font-quattro"><span>Glitch</span></a>
-          
-          <a href="https://contrastly.com/polaroid-photography-guide/" class="link link--mneme uppercase font-quattro font-bold">Polaroid</a>
+          <a
+            href="https://shotkit.com/glitch-art-photography/"
+            class="link link--helike font-quattro font-bold uppercase text-secondary"
+            ><span>Glitch</span></a
+          >
 
+          <a
+            href="https://contrastly.com/polaroid-photography-guide/"
+            class="link link--mneme font-quattro font-bold uppercase"
+            >Polaroid</a
+          >
         </div>
       </div>
 
-      <div class="footer flex flex-col justify-center gap-2.5">
-        <h2
-          class="flex justify-center border-b-2 border-solid border-secondary font-quattro text-2xl text-secondary"
-        >
-          Credits
-        </h2>
+      <div
+        class="footer flex flex-col items-center justify-center gap-2.5 bg-accent pt-8"
+      >
         <div class="flex flex-col justify-center gap-8">
+          <h2 class="text-center font-quattro text-2xl text-secondary">
+            Credits
+          </h2>
+          <hr class="w-72 md:w-96" />
           <p class="text-center font-quattro text-secondary">Tekst:</p>
           <p class="text-center font-quattro text-secondary">
             Grafik & Kode: <br />
@@ -354,9 +370,11 @@
           </p>
           <p class="text-center font-quattro text-secondary">
             Fotos: <br />
-            Stefan Grage Shutterstock
+            Stefan Grage <br>
+            Shutterstock
           </p>
         </div>
+        <br />
       </div>
 
       <div
@@ -364,6 +382,7 @@
       ></div>
     </main>
 
+    <script type="module" src="./animation.js"></script>
     <script type="module" src="./scroll.js"></script>
     <script type="module" src="./main.js"></script>
     <script type="module" src="./sidewaysscroll.js"></script>
